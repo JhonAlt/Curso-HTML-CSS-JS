@@ -14,7 +14,7 @@
             <input type="text" id="nombre" name="nombre" required>
 
             <label for="edad">¿Cuál es tu edad?</label>
-            <input type="number" id="edad" name="edad" required>
+            <input type="number" id="edad" name="edad" min="1" max="100" required>
 
             <label for="lenguaje">¿Qué lenguaje de programación estás aprendiendo?</label>
             <select id="lenguaje" name="lenguaje" required>
@@ -31,5 +31,8 @@
             <input type="submit" value="Enviar">
         </form>
     </div>
+
+    <script src="datosUsuario.js" defer></script>
+
 </body>
 </html>
